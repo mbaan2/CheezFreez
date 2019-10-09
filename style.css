@@ -191,6 +191,7 @@ html {
 .nav div p {
 	margin: 10px 0px;
 	line-height: 1.5;
+    font-size: 12px;
 }
 
 .nav div a img:hover{
@@ -225,7 +226,7 @@ html {
 	.nav div p {
 		margin: 10px 0px;
 		line-height: 1.5;
-		font-size: 10px;
+		font-size: 20px;
 	}
 
 	.contact {
