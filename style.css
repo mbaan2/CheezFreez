@@ -214,7 +214,7 @@ html {
 	}
 	.nav a {
 		font-size: 25px;
-		padding: 6px 8px 20px 5px;
+		padding: 6px 8px 40px 5px;
 	}
 	.nav div {
 		color: #FDF4C9;
@@ -226,7 +226,7 @@ html {
 	.nav div p {
 		margin: 10px 0px;
 		line-height: 1.5;
-		font-size: 20px;
+		font-size: 10px;
 	}
 
 	.contact {
