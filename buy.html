@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Buy Cheese Freeze</title>
+</head>
+<body>
+
+	<div class="nav">
+		<a href="#"> Problem </a>
+		<a href="#"> Solution </a>
+		<a href="#"> Buy Now! </a>
+		<div>
+			<p>
+				<b class="contact"> Contact us:</b>
+				<br>
+				004712345678
+				notreal@CheezFreez.com
+			</p>
+			<a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Logo Facebook"></a>
+			<a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"><img src="google-plus.png" alt="Logo Google Plus"></a>	
+			<a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Logo Twitter"> </a>
+
+			
+			<p class="copyright">
+				CheezFreez &copy; 2019
+				<p/>
+			</div>
+		</div>
+
+		<main>
+			<h1>Your order</h1>
+			<form action="confirm.html" method="POST" oninput="x.value=parseInt(a.value)*5000+parseInt(b.value)">
+				<fieldset>
+					<legend>Personal in<em>fromage</em>on</legend>
+					<div class="row">
+						<div class="col-25">
+							<label for="firstname">First name:</label>						
+						</div>
+						<div class="col-75">
+							<input type="text" name="firstname" required>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="lastname">Last name:</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="lastname" required>	
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="email">E-Mail:</label>
+						</div>
+						<div class="col-75">
+							<input type="email" name="email" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="phone">Phone:</label>
+						</div>
+						<div class="col-75">
+							<input type="number" name="phone" required>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Shipping in<em>fromage</em>on</legend>
+					<div class="row">
+						<div class="col-25">
+							<label for="address">Address</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="address" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="postcode">Postcode:</label>
+						</div>
+						<div class="col-75">
+							<input type="number" name="postcode" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="city">City:</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="city" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="country">Country:</label>
+						</div>
+						<div class="col-75">
+							<input type="text" name="country" required>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Order in<em>fromage</em>on</legend>
+					<div class="row">
+						<div class="col-25">
+							Single price:
+						</div>
+						<div class="col-75">
+							<strong>5.000 kr</strong>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="amount">Amount:</label>
+						</div>
+						<div class="col-75">
+							<input type="number" id="a" name="amount" value="1" min="1" max="500">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+						<label for="shipping">Shipping type:</label>
+					</div>
+					<div class="col-75">
+						<div class="container">
+							<input type="radio" name="shipping" id="b" value="50" checked="checked">Norway<br>
+							<span class="checkmark"></span>
+						</div>
+						<div class="container">
+							<input type="radio" name="shipping" id="b" value="100">International
+							<span class="checkmark"></span>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+			<div class="row">
+				<p class="total">TOTAL: <output name="x" for="a b">5050</output> kr</p>
+				<button>BUY</button>
+			</div>
+
+		</form>
+
+	</main>
+
+</body>
+</html>
