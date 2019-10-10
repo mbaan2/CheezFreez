@@ -213,6 +213,7 @@ body{
 .buy-now {
 	margin-left: 225px;
 	text-align: center;
+    margin-bottom: 300px;
 }
 .buy-now button {
 	float: none;
@@ -222,8 +223,16 @@ body{
 }
 .order {
 	padding-left: 20px;
-	margin-left: 225px;
-	background-color: #FDF4C9;		/*the lighest colour (milk)*/
+    color: #291B12;
+    width: 60%;
+    text-align: justify;
+    border: solid #291B12;
+    background-color: #FDF4C9;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 25px;
 }
 .order h1 {
 	margin-top: 0;
@@ -233,7 +242,8 @@ body{
 
 fieldset {
 	margin-top: 10px;
-	border-color: #C19B52;			/*middle brown*/
+	border-color: #C19B52;	
+    /*middle brown*/
 }
 
 legend {
@@ -355,8 +365,9 @@ button a {
 
 /*Responsive form: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive*/
 
-
-
+.buy{
+    margin-bottom: 50px;
+}
 
 
 @media screen and (max-width: 700px){
@@ -388,6 +399,17 @@ button a {
   .copyright{
     font-size: 10px;
 }
+
+ .footer {
+    height: 135px;
+    background-color: #9D4E25;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    }
+    .footer-text{
+        margin-left: 125px;
+    }
     
   .intro{
     margin-left: 125px;
