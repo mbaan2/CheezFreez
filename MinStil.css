@@ -215,6 +215,42 @@ body{
 	text-align: center;
 }
 .buy-now button {
+	float: none;
+}
+.buy-now h1 {
+	text-align: center;
+}
+.order {
+	padding-left: 20px;
+	margin-left: 225px;
+	background-color: #FDF4C9;		/*the lighest colour (milk)*/
+}
+
+fieldset {
+	margin-top: 10px;
+	border-color: #C19B52;			/*middle brown*/
+}
+
+legend {
+	font-weight: bold;
+	text-align: left;
+	color: #9D4E25;					/*dark brown but not the darkest*/
+}
+
+input {
+	padding: 10px;
+	border: 3px solid #C19B52;
+	border-radius: 5px;
+}
+input:focus {
+	border: 3px solid #9D4E25;
+}
+
+.total {
+	font-weight: bold;
+}
+
+button {
 	cursor: pointer;
 	background-color: #9D4E25;
 	color: white;
@@ -225,17 +261,98 @@ body{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 25px;
+	float: left;
 }
-.buy-now h1 {
-	text-align: center;
+button:hover {
+	background-color: #291B12;
 }
-.buy-now button a {
+
+label {
+	display: inline-block;
+	line-height: 38px;
+}
+
+button a {
 	text-decoration: none;
 	color: white;
 }
-.buy-now button:hover {
-	background-color: #291B12;
+
+/*custom style radio buttons*/
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
 }
+.container input {
+	position: absolute;
+	opacity: 0;				/*hide default radio button*/
+	cursor: pointer;
+	width: 50%;
+	height: 100%;
+}
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #C19B52;
+	border-radius: 50%;
+}
+/* On mouse-over, add darker background color */
+.container:hover input ~ .checkmark {
+	background-color: #9D4E25;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+/*Custom radio button style: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio*/
+
+.col-25 {
+	float: left;
+	width: 25%;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+}
+
+.row {
+	margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Responsive form: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive*/
+
+
+
+
 
 @media screen and (max-width: 700px){
   .nav{
@@ -284,4 +401,20 @@ body{
     .slide-box{
     
     }
+
+	.order {
+		margin-left: 125px;
+	}
+
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+	legend {
+		text-align: center;
+	}
 }
