@@ -45,6 +45,15 @@ body{
     text-align: center;
 }
 
+.problemtitle{
+    background-color: rgb(253, 244, 201, 0.8);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
 .slide-box{
     width: 400px;
     height: 350px;
@@ -384,9 +393,8 @@ button a {
     text-align: center;
 }
 
-.problemtitle{
-    background-color: rgb(253, 244, 201, 0.8);
-    text-align: center;
+.solutionTitle h1{
+    font-size: 40px;
 }
 
 .amazing {
