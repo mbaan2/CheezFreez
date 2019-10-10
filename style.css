@@ -32,9 +32,7 @@ input:focus {
 }
 
 .total {
-	margin: 0;
 	font-weight: bold;
-	float: right;
 }
 
 button {
@@ -56,6 +54,7 @@ button:hover {
 
 label {
 	display: inline-block;
+	line-height: 38px;
 }
 
 a {
@@ -258,11 +257,8 @@ html {
 
 }
 
-@media screen and (max-width: 463px) {
-
-	.total {
-		float: left;
-		margin-bottom: 10px;
+@media screen and (max-width: 400px){
+	legend {
+		text-align: center;
 	}
-
 }
