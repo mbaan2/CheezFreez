@@ -212,9 +212,9 @@ body{
 
 .buy-now {
 	margin-left: 225px;
+	text-align: center;
 }
 .buy-now button {
-	margin-left: 35%;
 	cursor: pointer;
 	background-color: #9D4E25;
 	color: white;
