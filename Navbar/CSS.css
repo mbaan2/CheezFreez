@@ -108,7 +108,7 @@ body {
 .solutionTextTop {
     color: #291B12;
     width: 60%;
-    border: solid;
+    border: solid #291B12;
     background-color: #FDF4C9;
     padding: 10px;
     font-size: 25px;
@@ -124,7 +124,7 @@ body {
     vertical-align: top;
     margin-top: 20px;
     color: #291B12;
-    border: solid;
+    border: solid #291B12;
     background-color: #FDF4C9;
     padding: 0 10px 0 10px;
     font-size: 25px;
