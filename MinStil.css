@@ -1,0 +1,261 @@
+body{
+	margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.intro{
+	text-align: center;
+	margin-bottom: 10px;
+    margin-left: 225px;
+    background-image: url(hovedbilde.jpg);
+    padding: 10px;
+}
+
+.intro-tekst{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.intro-tekst2{
+    color: #291B12;
+    width: 60%;
+    text-align: center;
+    border: solid;
+    background-color: #FDF4C9;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.intro h1{
+    color: #291B12;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.problem{
+	background-image: url(hovedbilde.jpg);
+	padding: 10px;
+	margin-left: 225px;
+    text-align: center;
+}
+
+.slide-box{
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.image-container{
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition:left 1s;
+}
+
+.slider-image{
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-container{
+    position: relative;
+    top: -20px;
+}
+
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slider-image-1:target ~ .image-container{
+    left: 0px;
+    
+}
+
+#slider-image-2:target ~ .image-container{
+    left: -400px;
+    
+}
+
+#slider-image-3:target ~ .image-container{
+    left: -800px;
+}
+
+
+.problem h1{
+    font-size: 40px;
+}
+
+.problem ul{
+    font-size: 25px; 
+    list-style-type: ;
+    text-align: ;
+}
+
+.problem ul li{
+}
+
+.problem-tekst{
+    margin-left: 15%;
+    border: solid;
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #FDF4C9;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+}
+
+.imageholder{
+    margin: 10%;
+}
+
+.imageholder img{
+    width: 500px;
+    height: auto;
+}
+
+.problem-tekst2{
+    width: 70%;
+    padding: 10px;
+    margin-left: 15%;
+    border: solid;
+    background-color: #FDF4C9;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav{
+  height: 100%;
+  width: 225px; /* 200 was nice*/
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #291B12;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: left;
+}
+/* Code is based on https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+
+.nav a{
+	padding: 6px 8px 20px 16px;
+	text-decoration: none;
+	font-size: 42px;
+	color: #FDF4C9;
+	display: block;
+}
+/* Code is based on https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+
+
+.nav a:hover{
+	color: #C19B52;
+}
+
+.nav div{
+	color: #FDF4C9;
+	padding: 6px 8px 6px 16px;
+	display: block;
+	bottom: 5px;
+	position: absolute;
+}
+
+.nav div a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 6px 0px 0px;
+}
+
+.nav div a img{
+	height: 50px;
+}
+
+.nav div p{
+	margin: 10px 0px;
+	line-height: 1.5;
+}
+
+.nav div a img:hover{
+	opacity: 0.6;
+}
+.contact{
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.copyright {
+	font-size: 15px;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+@media screen and (max-width: 700px){
+  .nav{
+		width: 125px;
+}
+  .nav a{
+      font-size: 25px;
+      padding: 6px 8px 20px 5px;
+}
+  .nav div{
+      color: #FDF4C9;
+      padding: 6px 8px 6px 5px;
+      display: block;
+      bottom: 5px;
+      position: absolute;
+}
+  .nav div p{
+      margin: 10px 0px;
+      line-height: 1.5;
+      font-size: 10px;
+}
+
+  .contact{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+  .nav div a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 3px 0px 0px;
+}
+  .nav div a img{
+      height: 32px;
+}
+  .copyright{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+  .intro{
+    margin-left: 125px;
+}  
+  .problem{
+    margin-left: 125px;
+    }
+    .slide-box{
+    
+    }
+}
