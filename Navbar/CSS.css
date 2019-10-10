@@ -5,7 +5,6 @@
 body {
 	margin: 0px;
 	font-family: Arial, sans-serif;
-    background-color: #FDF4C9;
 }
 
 .nav {
@@ -76,11 +75,13 @@ body {
 .mainPart {
     margin-left: 230px;
     color: #291B12;
+    background-image: url(../Pics/hovedbilde.jpg)
 }
 
 .solutionTitle {
-    background-image: url(../Pics/CheeseBG.png);
+    background-color: rgb(253, 244, 201, 0.8);
     color: #9D4E25;
+    text-align: center;
 }
 
 .amazing {
@@ -95,6 +96,7 @@ body {
 
 .CheezFreezPic img{
     height: 500px;
+    max-height: 50vw;
     width: auto;
 }
 
@@ -103,11 +105,30 @@ body {
     padding: 0 2% 0 2%;
 }
 
+.solutionTextTop {
+    color: #291B12;
+    width: 60%;
+    border: solid;
+    background-color: #FDF4C9;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
 .solutionTextLeft {
-    width: calc(50% - 40px);
+    width: calc(50% - 50px);
     display: inline-block;
     font-size: 20px;
     vertical-align: top;
+    margin-top: 20px;
+    color: #291B12;
+    border: solid;
+    background-color: #FDF4C9;
+    padding: 0 10px 0 10px;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 .solutionTextRight {
@@ -117,9 +138,10 @@ body {
     margin-top: 20px;
     margin-left: 3%;
     background-color: #DDB35D;
-    border: solid #9D4E25 3px;
+    border: solid #9D4E25 2px;
     border-radius: 7px 20px 7px 20px;
     padding: 0 7px 0 7px;
+    font-size: 25px;
 }
 
 .tinyText {
@@ -136,7 +158,7 @@ body {
 }
 
 .buyButton {
-    background-image: url(../Pics/CheeseBG.png);
+    background-color: rgb(253, 244, 201, 0.8);
     text-align: center;
     margin: 10px 0;
     padding: 20px 0;
