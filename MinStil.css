@@ -5,7 +5,7 @@ body{
 }
 
 .intro{
-	text-align: justify;
+	text-align: center;
     margin-left: 225px;
     padding: 10px;
 }
@@ -15,6 +15,7 @@ body{
     font-size: 25px;
     margin-top: 5%;
     margin-bottom: 15%;
+    background-color: rgb(253, 244, 201, 0.8);
 }
 
 .intro-tekst2{
@@ -114,7 +115,7 @@ body{
 }
 
 .problem-tekst{
-    margin-left: 15%;
+    margin-left: 13%;
     border: solid #291B12;
     padding: 10px;
     margin-top: 10%;
@@ -126,23 +127,24 @@ body{
 }
 
 .imageholder{
-    margin: 10%;
+    margin-bottom: 10%;
 }
 
 .imageholder img{
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
 .problem-tekst2{
     width: 70%;
     padding: 10px;
-    margin-left: 15%;
+    margin-left: 13%;
     border: solid #291B12;
     background-color: #FDF4C9;
     border-radius: 10px;
     font-size: 20px;
     text-align: justify;
+    margin-bottom: 10%;
 }
 
 .nav{
@@ -211,6 +213,7 @@ body{
 }
 
 .buy-now {
+    margin-top: 10%;
 	margin-left: 225px;
 	text-align: center;
     margin-bottom: 300px;
@@ -369,6 +372,97 @@ button a {
     margin-bottom: 50px;
 }
 
+.mainPart {
+    margin-left: 230px;
+    color: #291B12;
+    background-image: url(../Pics/hovedbilde.jpg)
+}
+
+.solutionTitle {
+    background-color: rgb(253, 244, 201, 0.8);
+    color: black;
+    text-align: center;
+}
+
+.problemtitle{
+    background-color: rgb(253, 244, 201, 0.8);
+    text-align: center;
+}
+
+.amazing {
+    transform: rotate(350deg);
+    width: 100px;
+    vertical-align: middle;
+}
+
+.CheezFreezPic {
+    text-align: center;
+}
+
+.CheezFreezPic img{
+    height: 500px;
+    max-height: 50vw;
+    width: auto;
+}
+
+.solutionText {
+    text-align: justify;
+    padding: 0 2% 0 2%;
+}
+
+.solutionTextTop {
+    color: #291B12;
+    width: 60%;
+    border: solid #291B12;
+    background-color: #FDF4C9;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.solutionTextLeft {
+    width: calc(50% - 50px);
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 20px;
+    color: #291B12;
+    border: solid #291B12;
+    background-color: #FDF4C9;
+    padding: 0 10px 0 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.solutionTextRight {
+    width: calc(50% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 3%;
+    background-color: #DDB35D;
+    border: solid #9D4E25 2px;
+    border-radius: 7px 20px 7px 20px;
+    padding: 0 7px 0 7px;
+    font-size: 25px;
+}
+
+.tinyText {
+    font-size: 9px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #9D4E25;
+}
+
+.solutionText ul {
+    margin-top: -1em;
+}
+
+
 
 @media screen and (max-width: 700px){
  .nav{
@@ -429,6 +523,24 @@ button a {
 		width: 100%;
 		margin-top: 0;
 	}
+    
+       .mainPart {
+        margin-left: 127px;
+    }
+    
+    .CheezFreezPic img{
+        height: 250px;
+        width: auto;
+}
+    
+    .solutionTextLeft {
+        width: auto;
+    }
+
+    .solutionTextRight {
+        width: auto;
+        margin-left: auto;
+}
 
 }
 
