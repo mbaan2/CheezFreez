@@ -71,6 +71,8 @@ h2 {
     border-radius: 10px;
 }
 
+/* code for a slideshow in html / css based on https://www.youtube.com/watch?v=FZrHoAUkHpE&t=466s, basically the same concept as shown in our demos as well */
+
 
 .image-container{
     width: 1200px;
