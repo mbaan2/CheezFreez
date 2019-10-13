@@ -174,7 +174,7 @@ h2 {
 /* Code is based on https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 
 .nav a{
-	padding: 6px 8px 20px 16px;
+	padding: 6px 8px 25px 16px;
 	text-decoration: none;
 	font-size: 42px;
 	color: #FDF4C9;
@@ -384,7 +384,13 @@ button a {
 /*Responsive form: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive*/
 
 .buy{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+.confirm {
+    text-align: center;    
+}
+.h3 {
+    padding: 0px;
 }
 
 .button-home {
@@ -418,6 +424,7 @@ button a {
     height: 500px;
     max-height: 50vw;
     width: auto;
+    padding: 0px 20px;
 }
 
 .same-height {
@@ -473,17 +480,14 @@ button a {
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
 
-    body {
-        width: 535px;
-    }
  .nav{
 		width: 125px;
 }
   .nav a{
       font-size: 25px;
-      padding: 6px 8px 30px 5px;
+      padding: 6px 8px 30px 8px;
 }
   .nav div{
       padding: 6px 8px 6px 5px;
@@ -531,6 +535,7 @@ button a {
 
 	.order {
 		width: auto;
+        margin-right: 35px;
 	}
 
 	.col-25, .col-75, input[type=submit] {
