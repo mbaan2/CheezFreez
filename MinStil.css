@@ -4,6 +4,11 @@ body{
     background-image: url(CheeseBG.png)
 }
 
+/*
+Cheese background picture source:
+https://www.freepik.es/vector-gratis/fondo-patron-queso_1113273.htm
+ */
+
 h1 {
     font-size: 50px;
 }
@@ -92,6 +97,17 @@ h2 {
     padding: 0px;
 }
 
+/*
+Moldy cheese picture source:
+https://www.bonappetit.com/story/is-moldy-cheese-okay
+
+Moldy cheese pic2 source:
+https://www.businessinsider.com/is-moldy-cheese-bad-for-you-2015-8?r=US&IR=T
+
+Moldy cheese pic3 source:
+https://www.bonappetit.com/story/is-moldy-cheese-okay
+*/
+
 .button-container{
     position: relative;
     top: -20px;
@@ -148,6 +164,10 @@ h2 {
     height: auto;
     margin-top: -1%;
 }
+/*
+Hand picture source:
+https://unsplash.com/s/photos/hands-holding-something
+*/
 
 .problem-tekst2{
     width: 70%;
